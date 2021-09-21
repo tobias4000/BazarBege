@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    min-width: 380px;
+    display: block;
+    min-width: 290px;
 }
 
 header {
@@ -37,7 +38,6 @@ section .banner {
 }
 
 article {
-    display: block;
     text-align: center;
     margin: 10px 0;
 }
@@ -53,9 +53,15 @@ article button {
     border-style: solid;
 }
 
+.image-container {
+    text-align: center;
+    width: 100%;
+}
+
 img {
     margin: 10px 0 50px 0;
-    width: 500px;
+    max-width: 500px;
+    text-align: center;
 }
 
 footer {
@@ -72,11 +78,11 @@ footer p {
 }
 
 @media  screen and (max-width: 500px) {
+    html {
+        font-size: 0.9em;
+    }
     img {
         width: 100%;
-    }
-    body {
-        font-size: 1.2rem;
     }
 }
 
