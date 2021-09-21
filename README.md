@@ -1,4 +1,4 @@
-# Mixed Messages
+# BazarBege
  This is the website for BazarBege, a secondhand store based in Barra Grande, Piauí, Brasil.
 
 ## Table of Contents
