@@ -38,6 +38,11 @@ article button {
     border-style: solid;
 }
 
+img {
+    margin: 10px 0 50px 0;
+    width: 500px;
+}
+
 footer {
     position: fixed;
     width: 100%;
